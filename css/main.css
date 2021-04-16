@@ -27,19 +27,20 @@ Typography
 */ 
   body {
     font-family: var(--font-serif);
-    color: black;
+    color: var(--black);
     line-height: 1.667;
   }
 
   h2 {
     font-family: 'OPTILatin-Bold', serif;
     font-size: 2rem;
+    letter-spacing: 0.025em;
     color: var(--orange);
     line-height: 1.2;
   }
   h3 {
     font-family: var(--font-serif);
-    font-weight: 400;
+    font-weight: light;
     font-size: 1.5rem;
     color: var(--orange);
   }
