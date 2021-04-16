@@ -1,5 +1,15 @@
+@font-face {
+    font-family: 'OPTILatin-Bold';
+    src:url('OPTILatin-Bold.ttf.woff') format('woff'),
+        url('OPTILatin-Bold.ttf.svg#OPTILatin-Bold') format('svg'),
+        url('OPTILatin-Bold.ttf.eot'),
+        url('OPTILatin-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root{
---font-sans-serif: 'Vollkorn', serif;
+--font-serif: 'Vollkorn', serif;
 --black: black;
 --orange: #f48159;
 --grey: #808080;
@@ -12,13 +22,46 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
-
+/* 
+Typography
+*/ 
   body {
-    font-family: var(--font-sans-serif);
+    font-family: var(--font-serif);
     color: black;
     line-height: 1.667;
   }
 
-  a {
-      color: 
+  h2 {
+    font-family: 'OPTILatin-Bold', serif;
+    font-size: 2.5rem;
+    color: var(--orange);
+    line-height: 1.2;
+  }
+  h3 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 2rem;
+    color: var(--orange);
+  }
+
+  h3 a {
+    color: var(--black);
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
+  }
+/* 
+Component 
+*/ 
+  .component img {
+    max-width: initial;
+  }
+  .component__img {
+      border: 1px solid grey;
+      overflow-x: auto;
+  }
+  .component__code {
+      border: 1px solid grey;
   }
