@@ -13,6 +13,7 @@
 --black: black;
 --orange: #f48159;
 --grey: #808080;
+--lightgrey: #d0d0d0;
 --green: #6b945b;
 --white: white; 
 }
@@ -124,6 +125,12 @@ Component
   .component__code {
       border: 1px solid grey;
       margin: 0;
-      padding: 0 1rem;
+      padding: 1rem;
       position: relative;
+  }
+  .component__footer {
+    border: 1px solid grey;
+    padding: 0 1rem;
+    font-size: .75rem;
+    color: var(--lightgrey);
   }
