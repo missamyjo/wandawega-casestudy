@@ -13,35 +13,67 @@
 </head>
 
 <body>
-    <h1>Web Design System</h1>
-    <p>Components based on the website of <a href="https://wandawega.com">Camp Wandawega</a>.</p>
+    <main class="container component-page__main">
 
-    <h2>Typography Defaults</h2>
+        <h1>Web Design System</h1>
+        <p>Components based on the website of <a href="https://wandawega.com">Camp Wandawega</a>.</p>
 
-    <article class="component">
-        <h3 class="component__name">body</h3>
-        <div class="component__img">
-            <img srcset="img/case-studies__paragraph.png 2x" src="img/case-studies__paragraph.png" alt="body copy" />
-        </div>
-        <div class="component__code">
-            <p>Not camp like you remember. More like "the camp counselors have gone missing and you found the keys to
-                the liquor cabinet." These tend to be private, invitation-only events, but we like to share photos
-                nonetheless.</p>
-        </div>
-    </article>
-    <article class="component">
-        <h3 class="component__name">headings (h1, h2, ...)</h3>
-        <div class="component__img">
-            <img srcset="img/case-studies__header.png 2x" src="img/case-studies__header.png" alt="h1" />
-            <img srcset="img/case-studies__sub-header.png 2x" src="img/case-studies__sub-header.png" alt="h2" />
-        </div>
-        </div>
-        <div class="component__code">
-            <h2>Our Camps</h2>
-            <h3>Where social distancing is a way of life</h3>
-        </div>
-    </article>
+        <section class="page-header" id="header">
+            <h2>Page Header</h2>
+            <img src="img/page-header__main-nav.png" alt="Main Nav" />
+            <header class="site-header">
+                <span class="page-header-stripe"></span>
+                <div class="container">
+                    <img class="header-logo" src="img/page-header__wordmark.png" title="Camp Wandawega">
+                    <nav class="main-nav">
+                        <ul class="menu">
+                            <li><a href="#!">Collabs</a></li>
+                            <li><a href="#!">Programs</a></li>
+                            <li><a href="#!">Visit</a></li>
+                            <li><a href="#!">Retreats</a></li>
+                            <li><a href="#!">Tour</a></li>
+                            <li><a href="#!">Our Story</a></li>
+                            <li><a href="#!">Press</a></li>
+                            <li><a href="#!">Store</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </section>
 
+        <section class="page-section" id="typography">
+
+            <h2>Typography Defaults</h2>
+
+            <article class="component">
+                <h3 class="component__name">body</h3>
+                <div class="component__img">
+                    <img srcset="img/case-studies__paragraph.png 2x" src="img/case-studies__paragraph.png"
+                        alt="body copy" />
+                </div>
+                <div class="component__code">
+                    <p>Not camp like you remember. More like "the camp counselors have gone missing and you found
+                        the
+                        keys to
+                        the liquor cabinet." These tend to be private, invitation-only events, but we like to share
+                        photos
+                        nonetheless.</p>
+                </div>
+            </article>
+            <article class="component">
+                <h3 class="component__name">headings (h1, h2, ...)</h3>
+                <div class="component__img">
+                    <img srcset="img/case-studies__header.png 2x" src="img/case-studies__header.png" alt="h1" />
+                    <img srcset="img/case-studies__sub-header.png 2x" src="img/case-studies__sub-header.png" alt="h2" />
+                </div>
+                </div>
+                <div class="component__code">
+                    <h2>Our Camps</h2>
+                    <h3>Where social distancing is a way of life</h3>
+                </div>
+            </article>
+        </section>
+    </main>
 </body>
 
 </html>
