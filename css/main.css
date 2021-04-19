@@ -58,7 +58,6 @@ Typography
     padding: 2rem;
     max-width: 75rem;
     margin: auto;
-    padding: 0 1rem;
   }
 
   .page-header-stripe {
@@ -71,15 +70,15 @@ Typography
     padding-top: 3px;
     border-top: 2px solid #f48159;
     border-bottom: 2px solid #f48159
-}
-.header-logo {
+  }
+  .header-logo {
   max-width: 325px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: .5rem;
-}
-.site-header {
+  }
+  .site-header {
 padding-top: 20px;
 }
 ul {
@@ -87,7 +86,6 @@ margin: 0;
 padding: 0;
 list-style: none;
 }
-
 .main-nav {
 background: white;
 color: black;
@@ -126,5 +124,6 @@ Component
   .component__code {
       border: 1px solid grey;
       margin: 0;
+      padding: 0 1rem;
       position: relative;
   }
