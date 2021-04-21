@@ -98,7 +98,7 @@ padding-top: 20px;
 }
 .menu a:hover {
   color: #f48159;
-  border-bottom: 0.1rem solid #f48159;
+  text-decoration: underline;
 }
 .menu a {
   text-decoration: none;
