@@ -7,8 +7,14 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face { 
+  src: url("https://use.typekit.net/rbf0enl.css");
+  font-family: 'vollkorn', serif;
+  font-weight: 400;
+  font-style: normal;
+}
 :root{
---font-serif: 'Vollkorn', serif;
+--font-serif: 'vollkorn', serif;
 --black: black;
 --orange: #f48159;
 --grey: #808080;
@@ -26,8 +32,9 @@ html {
 Typography
 */ 
 body {
-  font-family: var(--font-serif);
-  color: var(--black);
+  font-family: 'vollkorn', serif;
+  color: #4e4e4e;
+  font-weight: 200;
   line-height: 1.667;
 }
 h2 {
@@ -38,8 +45,8 @@ h2 {
   line-height: 1.2;
 }
 h3 {
-  font-family: var(--font-serif);
-  font-weight: lighter;
+  font-family: 'vollkorn', serif;
+  font-weight: 100;
   font-size: 1.5rem;
   color: var(--orange);
 }
@@ -97,14 +104,14 @@ ul {
 .menu a {
   text-decoration: none;
   color: grey;
-  padding: 1rem;
+  margin: 1rem;
 }
 .menu {    
   display: flex;
   list-style: none;
   justify-content: center; 
   font-family: "Cutive Mono","Courier New",monospace;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 
