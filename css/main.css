@@ -39,7 +39,7 @@ h2 {
 }
 h3 {
   font-family: var(--font-serif);
-  font-weight: light;
+  font-weight: lighter;
   font-size: 1.5rem;
   color: var(--orange);
 }
@@ -84,7 +84,7 @@ ul {
 .main-nav {
   background: white;
   color: black;
-  font-size: 17px;
+  font-size: 16px;
   font-family: "Cutive Mono","Courier New",monospace;
 }
 .header {
@@ -93,7 +93,7 @@ ul {
 .menu a:hover {
   color: #f48159;
   border-bottom: 0.1rem solid #f48159;
-  padding-bottom: 10px;
+
   width: fit-content;
 }
 .menu a {
@@ -106,7 +106,7 @@ ul {
   list-style: none;
   justify-content: center; 
   font-family: "Cutive Mono","Courier New",monospace;
-  font-size: 17px;
+  font-size: 16px;
 }
 /* 
 Component 
