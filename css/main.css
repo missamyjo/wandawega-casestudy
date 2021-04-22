@@ -114,8 +114,6 @@ ul {
   font-size: 14px;
 }
 
-
-
 /* 
 Component 
 */ 
@@ -141,4 +139,19 @@ Component
   line-height: 18px;
   color: var(--lightgrey);
   text-align: center;
+}
+.social-media {
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: center; 
+  font-size: 1.4rem;
+}
+.social-media a {
+  padding: 0.4rem;
+  color: #343434;
+}
+.social-media a:hover {
+  color: #435993;
 }
