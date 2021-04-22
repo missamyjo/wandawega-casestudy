@@ -99,7 +99,7 @@ ul {
 }
 .menu a:hover {
   color: #f48159;
-  border-bottom: 0.1rem solid #f48159;
+  border-bottom: 0.075rem solid #f48159;
 }
 .menu a {
   text-decoration: none;
