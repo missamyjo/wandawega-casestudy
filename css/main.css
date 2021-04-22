@@ -133,6 +133,7 @@ Component
   .component__footer {
     border: 1px solid grey;
     padding: 0 1rem;
+    font-family: "Cutive Mono","Courier New",monospace;
     font-size: .75rem;
     color: var(--lightgrey);
   }
