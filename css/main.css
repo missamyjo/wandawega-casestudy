@@ -93,8 +93,6 @@ ul {
 .menu a:hover {
   color: #f48159;
   border-bottom: 0.1rem solid #f48159;
-
-  width: fit-content;
 }
 .menu a {
   text-decoration: none;
@@ -108,6 +106,9 @@ ul {
   font-family: "Cutive Mono","Courier New",monospace;
   font-size: 16px;
 }
+
+
+
 /* 
 Component 
 */ 
@@ -129,6 +130,8 @@ Component
 .component__footer {
   border: 1px solid grey;
   padding: 0 1rem;
-  font-size: .8rem;
+  font-size: .8125rem;
+  line-height: 18px;
   color: var(--lightgrey);
+  text-align: center;
 }
