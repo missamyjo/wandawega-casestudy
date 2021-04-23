@@ -113,18 +113,24 @@ ul {
   font-family: "Cutive Mono","Courier New",monospace;
   font-size: 14px;
 }
+.footer-menu {
+  display: flex;
+  list-style: none;
+  justify-content: center; 
+  font-family: "Cutive Mono","Courier New",monospace;
+  font-size: 12px;
+}
 
 /* 
 Component 
 */ 
-.component img {
-  max-width: initial;
-}
+
 .component__img {
   border: 1px solid grey;
   margin: 0;
   overflow-x: auto;
   position: relative;
+  padding: 1rem;
 }
 .component__code {
   border: 1px solid grey;
@@ -135,15 +141,22 @@ Component
 .component__footer {
   border: 1px solid grey;
   padding: 0 1rem;
-  font-size: .8125rem;
+  font-size: .8rem;
   line-height: 18px;
   color: var(--lightgrey);
   text-align: center;
 }
+.page-hero {
+  width:100%;
+  height:0;
+
+}
+.page-hero__large {
+  border-bottom: 2px solid #f48159;
+}
+
 .social-media {
-  margin: 0;
   list-style: none;
-  padding-left: 0;
   display: flex;
   justify-content: center; 
   font-size: 1.4rem;
