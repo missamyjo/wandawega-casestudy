@@ -165,18 +165,16 @@ Component
   width:100%;
   height:0;
 }
+.page-hero__large {
+  border-bottom: 2px solid #f48159;
+}
 .camp-map a {
   color: white;
   background-color: var(--green);
   text-decoration: none;
-  padding: 2 rem; 
 }
 .camp-map a:hover {
   background-color: #577749;
-}
-
-.page-hero__large {
-  border-bottom: 2px solid #f48159;
 }
 .social-media {
   list-style: none;
