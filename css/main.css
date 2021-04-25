@@ -19,7 +19,7 @@
 --orange: #f48159;
 --grey: #808080;
 --lightgrey: #d0d0d0;
---green: #6b945b;
+--green: #6c955b;
 --white: white; 
 }
 html {
@@ -171,6 +171,7 @@ Component
 .camp-map a {
   color: white;
   background-color: var(--green);
+  padding: 2rem 3.5rem;  
   text-decoration: none;
 }
 .camp-map a:hover {
