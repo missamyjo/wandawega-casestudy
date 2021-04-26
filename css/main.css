@@ -250,6 +250,9 @@ Component
   display: inline-block;
   vertical-align: middle;
 }
+.footer-table-nav ul li:last-child {
+  border-right: 0;
+}
 .footer-table-nav-address {
   font-family: "Cutive Mono","Courier New",monospace;
   font-weight:400;
