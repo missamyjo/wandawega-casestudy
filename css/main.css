@@ -177,6 +177,7 @@ Component
 .camp-map a:hover {
   background-color: #577749;
 }
+
 .box {
   position: relative;
   display: inline-block;
@@ -194,6 +195,12 @@ Component
   padding: .3rem .2rem;  
   /* Set the width of the positioned div */
 }
+.box img {
+  display: block;
+  max-width: 100%;
+  opacity: .7;
+}
+
 .explore-camp-map a {
   color: white;
   background-color: var(--green);
