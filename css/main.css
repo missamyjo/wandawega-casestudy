@@ -13,7 +13,7 @@
   font-weight: 400;
   font-style: normal;
 }
-:root{
+:root {
 --font-serif: 'vollkorn', serif;
 --black: black;
 --orange: #f48159;
@@ -176,6 +176,69 @@ Component
 }
 .camp-map a:hover {
   background-color: #577749;
+}
+.footer-table-nav {
+  margin-bottom: 2em;
+  padding: 10px;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  font-size: 13px;
+  font-size: .8125rem;
+  text-align: center;
+}
+.footer-table-nav ul {
+  display: block;
+  width: 100%;
+  margin: 0;
+  list-style: none
+}
+.footer-table-nav ul li {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 1em;
+  border-right: 1px solid #d9d9d9;
+  border-bottom: 0;
+  text-align: center;
+}
+.footer-table-nav ul li img {
+  display: inline-block;
+  vertical-align: middle;
+  max-height: 52px
+}
+.footer-table-nav ul li span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-table-nav-address {
+  font-family: "Cutive Mono","Courier New",monospace;
+  font-weight:400;
+  font-style:normal
+}
+ .footer-table-nav-address img {
+  width: auto;
+  height: 52px;
+  margin-right: 1em
+}
+ .footer-table-nav-george img {
+  max-height: 44px;
+  margin-left: 1em;
+}
+.footer-table-nav-email {
+  font-family: "Cutive Mono","Courier New",monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+.footer-table-nav-email img {
+  max-height: 28px;
+  margin-right: 1em;
+}
+
+a {
+  color: var(--black);
+  text-decoration: none;
+}
+.footer-table-nav a:hover {
+  color: #f48159;
 }
 .social-media {
   list-style: none;
