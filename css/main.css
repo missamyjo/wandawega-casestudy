@@ -154,13 +154,13 @@ Component
   
 
 }
-.hero__img {
+.hero__image {
   padding: 1rem;
   display: flex;
   justify-content: center;
 }
-.hero__img :hover {
-  filter: brightness(120%);
+.hero__image a:hover {
+  filter: brightness(110%) saturate(120%);  
 }
 
 .component__code {
