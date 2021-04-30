@@ -77,11 +77,17 @@ img {
   max-width: 100%;
   display: block;
 }
-.container {
-  padding: 2rem;
-  max-width: 75rem;
+
+.hero {
+  max-width: 100%;
   margin: auto;
+  display: flex;
 }
+.hero__img{
+  padding: 1rem;
+  display: flex;
+}
+
 .site-header-stripe {
   position: relative;
   z-index: 999;
@@ -170,6 +176,14 @@ Component
 }
 .page-hero__large {
   border-bottom: 2px solid #f48159;
+}
+.hero-study {
+
+}
+.hero-study-arrow {
+  max-width: 40px;
+  margin-bottom: .1em;
+  line-height: 1;
 }
 .camp-map a {
   color: white;
