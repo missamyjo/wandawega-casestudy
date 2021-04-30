@@ -35,6 +35,10 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+img {
+  max-width: 100%;
+  display: block;
+}
 /* 
 Typography
 */ 
@@ -78,7 +82,7 @@ img {
   max-width: 75rem;
   margin: auto;
 }
-.page-header-stripe {
+.site-header-stripe {
   position: relative;
   z-index: 999;
   display: block;
@@ -90,14 +94,11 @@ img {
   border-bottom: 2px solid #f48159
 }
 .header-logo {
-  max-width: 325px;
+  max-width: 350px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: .5rem;
-}
-.site-header {
-  padding-top: 20px;
+
 }
 ul {
   margin: 0;
@@ -127,7 +128,7 @@ ul {
   list-style: none;
   justify-content: center; 
   font-family: "Cutive Mono","Courier New",monospace;
-  font-size: 14px;
+  font-size: 16px;
 }
 .footer-menu {
   display: flex;
@@ -140,28 +141,23 @@ ul {
 /* 
 Component 
 */ 
-
 .component__img {
-  border: 1px solid grey;
   margin: 0;
   overflow-x: auto;
   position: relative;
-  padding: 1rem;
+
 }
-.component__img-alternate{
-  border: 1px solid grey;
+.component__img-alternate {
   padding: 1rem;
   display: flex;
   justify-content: center;
 }
 .component__code {
-  border: 1px solid grey;
   margin: 0;
   padding: 1rem;
   position: relative;
 }
 .component__footer {
-  border: 1px solid grey;
   padding: 0 1rem;
   font-size: .8rem;
   line-height: 18px;
@@ -207,7 +203,6 @@ Component
   max-width: 100%;
   opacity: .7;
 }
-
 .explore-camp-map a {
   color: white;
   background-color: var(--green);
@@ -276,7 +271,6 @@ Component
   max-height: 28px;
   margin-right: 1em;
 }
-
 a {
   color: var(--black);
   text-decoration: none;
