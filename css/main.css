@@ -93,7 +93,6 @@ img {
   padding: 1rem;
   display: flex;
 }
-
 .site-header-stripe {
   position: relative;
   z-index: 999;
@@ -115,12 +114,8 @@ img {
 ul {
   display: block;
   list-style: none;
-    margin: 0 0 1.4em 2em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+  margin: 0 0 1.4em 2em;
+    
 }
 .main-nav {
   background: white;
@@ -162,8 +157,6 @@ Component
   margin: 0;
   overflow-x: auto;
   position: relative;
-  
-
 }
 .hero__image {
   padding: 1rem;
@@ -173,7 +166,6 @@ Component
 .hero__image a:hover {
   filter: brightness(110%) saturate(120%);  
 }
-
 .component__code {
   margin: 0;
   padding: 1rem;
@@ -210,7 +202,6 @@ Component
 .camp-map a:hover {
   background-color: #577749;
 }
-
 .box {
   position: relative;
   display: inline-block;
@@ -289,6 +280,7 @@ Component
   height: 52px;
   margin-right: 1em
 }
+
  .footer-table-nav-george img {
   max-height: 44px;
   margin-left: 1em;
@@ -302,7 +294,6 @@ Component
   max-height: 28px;
   margin-right: 1em;
 }
-
 a {
   color: #313131;
   text-decoration: none;
