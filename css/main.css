@@ -31,6 +31,12 @@
 }
 html {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -107,9 +113,14 @@ img {
 
 }
 ul {
-  margin: 0;
-  padding: 0;
+  display: block;
   list-style: none;
+    margin: 0 0 1.4em 2em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
 .main-nav {
   background: white;
@@ -233,8 +244,8 @@ Component
   background-color: #577749;
 }
 .footer-table-nav {
+  padding: 1em 0;
   margin-bottom: 2em;
-  padding: 10px;
   border-top: 1px solid #cccccc;
   border-bottom: 1px solid #cccccc;
   font-size: 13px;
@@ -250,10 +261,11 @@ Component
 .footer-table-nav ul li {
   display: inline-block;
   vertical-align: middle;
-  padding: 0 1em;
+  padding: 2px 1em;
   border-right: 1px solid #d9d9d9;
   border-bottom: 0;
   text-align: center;
+  white-space: nowrap;
 }
 .footer-table-nav ul li img {
   display: inline-block;
@@ -290,8 +302,9 @@ Component
   max-height: 28px;
   margin-right: 1em;
 }
+
 a {
-  color: var(--black);
+  color: #313131;
   text-decoration: none;
 }
 .footer-table-nav a:hover {
