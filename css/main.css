@@ -45,9 +45,6 @@ img {
   max-width: 100%;
   display: block;
 }
-/* 
-Typography
-*/ 
 body {
   font-family: 'vollkorn', serif;
   color: #4e4e4e;
@@ -130,17 +127,14 @@ ul {
   font-family: "Cutive Mono","Courier New",monospace;
   font-size: 16px;
 }
-.footer-menu {
-  display: flex;
-  list-style: none;
-  justify-content: center; 
-  font-family: "Cutive Mono","Courier New",monospace;
-  font-size: 12px;
+.site-header .container {
+  position: relative;
+  padding: 1em 0
 }
-
-/* 
-Component 
-*/ 
+  
+.section-header {
+  margin-bottom: 3em;
+}
 .component__img {
   margin: 0;
   overflow-x: auto;
