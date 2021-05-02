@@ -83,16 +83,6 @@ img {
   max-width: 100%;
   display: block;
 }
-
-.hero {
-  max-width: 100%;
-  margin: auto;
-  display: flex;
-}
-.hero__img{
-  padding: 1rem;
-  display: flex;
-}
 .site-header-stripe {
   position: relative;
   z-index: 999;
@@ -109,13 +99,11 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-
 }
 ul {
   display: block;
   list-style: none;
   margin: 0 0 1.4em 2em;
-    
 }
 .main-nav {
   background: white;
@@ -158,6 +146,17 @@ Component
   overflow-x: auto;
   position: relative;
 }
+.hero {
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 40px 40px;
+}
+.hero__text {
+  padding-top: 6rem;
+  }
 .hero__image {
   padding: 1rem;
   display: flex;
@@ -189,6 +188,11 @@ Component
 
 }
 .hero-study-arrow {
+  max-width: 40px;
+  margin-bottom: .1em;
+  line-height: 1;
+}
+.hero-study-arrow-left {
   max-width: 40px;
   margin-bottom: .1em;
   line-height: 1;
@@ -234,7 +238,7 @@ Component
 .explore-camp-map a:hover {
   background-color: #577749;
 }
-.footer-table-nav {
+.footer-table-nav {  
   padding: 1em 0;
   margin-bottom: 2rem;
   margin-left: 12rem;
@@ -315,4 +319,10 @@ a {
 }
 .social-media a:hover {
   color: #435993;
+}
+.copyright {
+  font-size: 13px;
+  line-height: 18px;
+  color: #CCC;
+  text-align: center;
 }
