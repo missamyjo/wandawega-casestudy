@@ -109,6 +109,7 @@ h3 a:hover {
   color: black;
   font-size: 16px;
   font-family: "Cutive Mono","Courier New",monospace;
+  padding-bottom: .5rem;
 }
 .menu a:hover {
   color: #f48159;
@@ -145,21 +146,15 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
-p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
 .section-header {
   padding-top: 1.5rem;
+  padding-bottom: .5rem;
   margin-bottom: 0;
 }
 .hero {
   display: flex;
-  justify-content: center; 
   margin: 1rem;
+  justify-content: center;
 }
 .hero__text-left {
   padding-top: 4rem;
@@ -168,7 +163,9 @@ p {
 .hero__image a:hover {
   filter: brightness(110%) saturate(120%);  
 }
-
+.hero__image {
+  justify-content: left; 
+}
 .hero-study-arrow {
   padding-top: 3rem;
   max-width: 40px;
@@ -305,12 +302,16 @@ a {
 .footer-table-nav a:hover {
   color: #f48159;
 }
+.footer-nav {
+  padding-top: .5rem;
+}
 .social-media {
   list-style: none;
   display: flex;
   justify-content: center; 
   font-size: 1.6rem;
   padding-right: 2rem;
+  margin-bottom: 1rem;
 }
 .social-media a {
   padding: 0.6rem;
