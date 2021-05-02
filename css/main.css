@@ -132,6 +132,13 @@ ul {
 }
 
 /* Body */
+.page-hero {
+  width:100%;
+  height:0;
+}
+.page-hero__large {
+  border-bottom: 2px solid #f48159;
+}
 .container {
   width: 90%;
   max-width: 900px;
@@ -146,34 +153,22 @@ p {
   margin-inline-end: 0px;
 }
 .section-header {
+  padding-top: 1.5rem;
   margin-bottom: 0;
 }
 .hero {
   display: flex;
-  max-width: 1200px;
   justify-content: center; 
   margin: 1rem;
-  padding-left: 6rem;
-  padding-right: 2rem;
 }
 .hero__text-left {
   padding-top: 4rem;
   text-align: right;
 }
-.hero__image {
-  display: flex;
-  justify-content: ;
-}
 .hero__image a:hover {
   filter: brightness(110%) saturate(120%);  
 }
-.page-hero {
-  width:100%;
-  height:0;
-}
-.page-hero__large {
-  border-bottom: 2px solid #f48159;
-}
+
 .hero-study-arrow {
   padding-top: 3rem;
   max-width: 40px;
