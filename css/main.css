@@ -127,11 +127,16 @@ ul {
   font-family: "Cutive Mono","Courier New",monospace;
   font-size: 16px;
 }
+.container {
+  width: 90%;
+  max-width: 978px;
+  margin-left: auto;
+  margin-right: auto;
+  }
 .site-header .container {
   position: relative;
   padding: 1em 0
 }
-  
 .section-header {
   margin-bottom: 3em;
 }
