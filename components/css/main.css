@@ -178,6 +178,32 @@ Component
 .page-hero__large {
   border-bottom: 2px solid #f48159;
 }
+.hero {
+  width: 90%;
+  max-width: 978px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 40px 40px;
+  display: flex;
+}
+.hero__img{
+border: 1px solid grey;
+padding: 1rem;
+display: flex;
+justify-content: center;
+}
+.hero__text-right {
+padding-top: 2rem;
+}
+.hero__text-left {
+padding-top: 2rem;
+text-align: right;
+}
+.hero__arrow-left {
+display: block;
+margin-left: auto;
+max-width: 40px;
+}
 .camp-map a {
   color: white;
   background-color: var(--green);
