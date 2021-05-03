@@ -221,7 +221,9 @@ Component
   background-color: #577749;
 }
 .footer-table-nav {
-  margin-bottom: 2em;
+  margin-bottom: .5em;
+  margin-left: 8rem;
+  margin-right: 6rem;
   padding: 10px;
   border-top: 1px solid #cccccc;
   border-bottom: 1px solid #cccccc;
@@ -266,7 +268,7 @@ Component
   margin-right: 1em
 }
  .footer-table-nav-george img {
-  max-height: 44px;
+  max-width: 44px;
   margin-left: 1em;
 }
 .footer-table-nav-email {
@@ -275,7 +277,7 @@ Component
   font-style: normal;
 }
 .footer-table-nav-email img {
-  max-height: 28px;
+  max-width: 28px;
   margin-right: 1em;
 }
 a {
